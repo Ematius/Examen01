@@ -40,7 +40,7 @@ body{
     background: linear-gradient(to top right, black, var(--dark-blue));
     border-radius: 1rem;
     border: 1px solid var(--dark-blue);
- }   
+    
     header{
         display: flex;
         flex-direction: column;
@@ -127,7 +127,7 @@ body{
        
     }
     }
-
+}
 
     
 
