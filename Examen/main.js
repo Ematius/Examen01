@@ -17,6 +17,7 @@ function handleButton(){
     buttons.forEach((button) => {
         button.addEventListener("click", (event) => {
             event.preventDefault();
+            
             selectedValue = button.getAttribute("value");
             if (selectedValue !== '') {
                 main.innerHTML = /*html*/ `
@@ -38,11 +39,10 @@ function handleButton(){
     });
 }
 
+
+
+
 handleButton();
-
-
-
-
 
 
 
