@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="css/style.css">
     <script src="main.js"></script>
     <title>Examen01</title>
 </head>
@@ -18,32 +16,18 @@
         <section>
             <p>Por favor, haznos saber cómo lo hicimos con tu solicitud de soporte. Todos los comentarios son bienvenidos para ayudarnos a mejorar nuestra oferta!</p>
         </section>
-        <form method="post" class="form">
-        <div class="containerButton">
-            <label>
-                <input type="radio" name="rating" value="1">
-                Opción 1
-            </label>
-            <label>
-                <input type="radio" name="rating" value="2">
-                Opción 2
-            </label>
-            <label>
-                <input type="radio" name="rating" value="3">
-                Opción 3
-            </label>
-            <label>
-                <input type="radio" name="rating" value="4">
-                Opción 4
-            </label>
-            <label>
-                <input type="radio" name="rating" value="5">
-                Opción 5
-            </label>
-        </div>
-        <div>
-            <input class="input" type="submit" value="Enviar">
-        </div>
+        <form class="form">
+            <div class="containerButton">
+                <button class="button" value="1">1</button>
+                <button class="button" value="2">2</button>
+                <button class="button" value="3">3</button>
+                <button class="button" value="4">4</button>
+                <button class="button" value="5">5</button>
+            </div>
+            <input type="hidden" id="ratingInput" name="rating" value="">
+            <div>
+                <input class="input" type="submit" value="Enviar">
+            </div>
         </form>
     </main>
 
