@@ -82,7 +82,7 @@ form {
     width: 100%;
     padding: 2rem;
 
-    .containerButton {
+    .container-button {
         display: flex;
         justify-content: space-between;
         gap: 0.5rem;
@@ -107,7 +107,7 @@ form {
             }
         }
     }
-    input {
+    .input {
         background-color: var(--orange);
         color: var(--dark-blue);
         border: none;
@@ -130,7 +130,6 @@ form {
     justify-content: center;
     margin-top: 2rem;
     img {
-        margin-left: 5rem;
         width: 10rem; 
         margin-bottom: 1rem;
     }
@@ -151,17 +150,24 @@ form {
     text-align: center;
     padding: 1rem 1.5rem;
     color: var(--white);
+    
     h2 {
         font-size: 1.5rem;
         font-weight: var(--font-weight-bold);
         margin-bottom: 1rem;
     }
+    
     p {
+        
         font-size: 1rem;
         font-weight: var(--font-weight-regular);
         color: var(--light-grey);
-        margin-bottom: 0.5rem;
+        
         
     }
     padding-bottom: 2rem;
+}
+
+.hidden {
+    display: none;
 }
