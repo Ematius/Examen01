@@ -23,15 +23,17 @@ function handleButton() {
         if (selectedValue !== "") {
             const main = document.querySelector(".hero");
             main.innerHTML = /*html*/ `
-                <header>
+                <header class="secondaryHeader">
+                
                     <img src="img/illustration-thank-you.svg" alt="Imagen de agradecimiento">
                     <div>
                         <p>Seleccionaste ${selectedValue} de 5</p>
                     </div>
                 </header>
-                <section>
+                <section class="secondarySection">
                     <h2>¡Gracias!</h2>
-                    <p>Agradecemos que te hayas tomado el tiempo de dar una calificación. Si alguna vez necesitas más ayuda, no dudes en volver a ponerte en contacto con nosotros</p>
+                    <p>Agradecemos que te hayas tomado el tiempo de dar una calificación.</p>
+                    <p>Si alguna vez necesitas más ayuda, no dudes en volver a ponerte en contacto con nosotros</p>
                 </section>
         `;
         }
