@@ -24,7 +24,6 @@ function handleButton() {
             const main = document.querySelector(".hero");
             main.innerHTML = /*html*/ `
                 <header class="secondaryHeader">
-                
                     <img src="img/illustration-thank-you.svg" alt="Imagen de agradecimiento">
                     <div>
                         <p>Seleccionaste ${selectedValue} de 5</p>
